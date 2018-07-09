@@ -38,5 +38,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="JTf-ZA-b4T">
+            <objects>
+                <viewController id="1Kf-wI-uJx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ABj-OG-bNg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🐋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZT-bU-J8T">
+                                <rect key="frame" x="78.5" y="80" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wat een mooie walvis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SjZ-0c-dDZ">
+                                <rect key="frame" x="105" y="349" width="165" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XZT-bU-J8T" firstAttribute="centerX" secondItem="ABj-OG-bNg" secondAttribute="centerX" id="6Yy-9T-sHz"/>
+                            <constraint firstItem="SjZ-0c-dDZ" firstAttribute="centerX" secondItem="ABj-OG-bNg" secondAttribute="centerX" id="bWE-0k-r1X"/>
+                            <constraint firstItem="SjZ-0c-dDZ" firstAttribute="top" secondItem="XZT-bU-J8T" secondAttribute="bottom" constant="30" id="oeQ-K2-4Qb"/>
+                            <constraint firstItem="XZT-bU-J8T" firstAttribute="top" secondItem="kOc-zT-NEY" secondAttribute="top" constant="60" id="pzM-Ys-IHj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kOc-zT-NEY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nFY-MS-wwr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1073" y="34"/>
+        </scene>
     </scenes>
 </document>
