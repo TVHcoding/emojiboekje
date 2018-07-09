@@ -34,7 +34,7 @@ class ViewController: UIViewController, UITableViewDataSource , UITableViewDeleg
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        tableview.deselectRow(at: indexPath, animated: true)
         let emoji = emojis[indexPath.row]
         
         performSegue(withIdentifier: "movescherm", sender: emoji)
