@@ -61,24 +61,43 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQa-0V-QkO">
+                                <rect key="frame" x="122.5" y="454" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jaar van uitgave : 2015" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="405-Sn-3lM">
+                                <rect key="frame" x="99.5" y="515" width="176" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="GQa-0V-QkO" firstAttribute="centerX" secondItem="ABj-OG-bNg" secondAttribute="centerX" id="2GN-g7-fvs"/>
+                            <constraint firstItem="405-Sn-3lM" firstAttribute="centerX" secondItem="ABj-OG-bNg" secondAttribute="centerX" id="5fk-df-koH"/>
                             <constraint firstItem="XZT-bU-J8T" firstAttribute="centerX" secondItem="ABj-OG-bNg" secondAttribute="centerX" id="6Yy-9T-sHz"/>
+                            <constraint firstItem="405-Sn-3lM" firstAttribute="top" secondItem="GQa-0V-QkO" secondAttribute="bottom" constant="40" id="6t8-j1-eX4"/>
+                            <constraint firstItem="GQa-0V-QkO" firstAttribute="top" secondItem="SjZ-0c-dDZ" secondAttribute="bottom" constant="40" id="CJ2-fL-6M4"/>
                             <constraint firstItem="SjZ-0c-dDZ" firstAttribute="centerX" secondItem="ABj-OG-bNg" secondAttribute="centerX" id="bWE-0k-r1X"/>
                             <constraint firstItem="SjZ-0c-dDZ" firstAttribute="top" secondItem="XZT-bU-J8T" secondAttribute="bottom" constant="30" id="oeQ-K2-4Qb"/>
                             <constraint firstItem="XZT-bU-J8T" firstAttribute="top" secondItem="kOc-zT-NEY" secondAttribute="top" constant="60" id="pzM-Ys-IHj"/>
+                            <constraint firstItem="405-Sn-3lM" firstAttribute="centerX" secondItem="ABj-OG-bNg" secondAttribute="centerX" id="zAn-hE-6BD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kOc-zT-NEY"/>
                     </view>
                     <connections>
+                        <outlet property="categorylabel" destination="GQa-0V-QkO" id="j8e-Nl-Dj4"/>
                         <outlet property="definitionLabel" destination="SjZ-0c-dDZ" id="d0B-RJ-G3T"/>
                         <outlet property="emojilabel" destination="XZT-bU-J8T" id="g3b-aW-fBS"/>
+                        <outlet property="uitgavelabel" destination="405-Sn-3lM" id="QBg-aV-QSU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nFY-MS-wwr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2638" y="25"/>
+            <point key="canvasLocation" x="2637.5999999999999" y="24.7376311844078"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UB3-RU-1II">
